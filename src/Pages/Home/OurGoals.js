@@ -10,7 +10,7 @@ const OurGoals = () => {
     }, [])
     return (
         <div className='mx-20 mt-10'>
-            <div class="grid lg:grid-cols-3 gap-3">
+            <div className="grid lg:grid-cols-3 gap-3">
                 {
                     goals.map(goal => <OurGoal key={goal.id} goal={goal}></OurGoal>)
                 }
